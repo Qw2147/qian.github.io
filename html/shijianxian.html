@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>时间线</title>
+    <link rel="stylesheet" href="anniu.css">
+</head>
+
+<body>
+    <div>如果我没算错和记错的，我们俩认识应该是在2022年吧，后面又断了联系，在今年的1月恢复了联系。
+    2024.2.22凌晨！我们确定了关系，说实话那时候还是挺开心的。
+    2024.2.24我们第一次见面。
+    2024.3.2第二次见面后我们好像变得冷淡了，好像吵了一架是吧，那算不算吵架呢，我也不知道了
+    2024.5.2我给你发了一段话，这段话的另一些意思准备在其他导航栏里的，至此，我们分开了。</div>
+    <div id="popup" class="popup">
+        <p>为了更好的体验，请允许我获得授权，求求你啦</p>
+        <button id="authorizeButton">允许</button>
+        <button id="closeButton">关闭</button>
+    </div>
+
+    <div id="audioControls" class="fixed-bottom">
+        <button id="playPauseButton">播放/暂停</button>
+        <input type="range" id="progressBar" min="0" max="100" value="0">
+    </div>
+
+    <audio id="audioElement" src="羽肿 - 花火が瞬く夜に.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
